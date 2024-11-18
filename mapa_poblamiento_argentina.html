@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c5cb9cac4359d170837a9fdfa61fdb6d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c5cb9cac4359d170837a9fdfa61fdb6d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c5cb9cac4359d170837a9fdfa61fdb6d = L.map(
+                "map_c5cb9cac4359d170837a9fdfa61fdb6d",
+                {
+                    center: [-38.4161, -63.6167],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_afeda74930e98b7cf39687cc7fec0c28 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c5cb9cac4359d170837a9fdfa61fdb6d);
+        
+    
+            var marker_c9bc840c08e03b250927288b9a53c532 = L.marker(
+                [-24.8, -65.4],
+                {}
+            ).addTo(map_c5cb9cac4359d170837a9fdfa61fdb6d);
+        
+    
+            var icon_0cc1893de829b22cfd7ec99eabad1f98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c9bc840c08e03b250927288b9a53c532.setIcon(icon_0cc1893de829b22cfd7ec99eabad1f98);
+        
+    
+        var popup_632464a7f6b2ad52923c65ef5559b581 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5c0fbace002a07d4421123a59584341 = $(`<div id="html_f5c0fbace002a07d4421123a59584341" style="width: 100.0%; height: 100.0%;">Influencia indígena (diaguitas, kollas) - Región Noroeste</div>`)[0];
+            popup_632464a7f6b2ad52923c65ef5559b581.setContent(html_f5c0fbace002a07d4421123a59584341);
+        
+
+        marker_c9bc840c08e03b250927288b9a53c532.bindPopup(popup_632464a7f6b2ad52923c65ef5559b581)
+        ;
+
+        
+    
+    
+            var marker_585cb09b68c9e4d73f3aca903ce59ac7 = L.marker(
+                [-34.6, -58.4],
+                {}
+            ).addTo(map_c5cb9cac4359d170837a9fdfa61fdb6d);
+        
+    
+            var icon_25bdd4b17497fcd1e131c585c508e442 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_585cb09b68c9e4d73f3aca903ce59ac7.setIcon(icon_25bdd4b17497fcd1e131c585c508e442);
+        
+    
+        var popup_4425b929f5dd2e5e17f05239f420946b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76c7f0873f50ab049591781926d490bd = $(`<div id="html_76c7f0873f50ab049591781926d490bd" style="width: 100.0%; height: 100.0%;">Influencia criolla y europea - Región Centro</div>`)[0];
+            popup_4425b929f5dd2e5e17f05239f420946b.setContent(html_76c7f0873f50ab049591781926d490bd);
+        
+
+        marker_585cb09b68c9e4d73f3aca903ce59ac7.bindPopup(popup_4425b929f5dd2e5e17f05239f420946b)
+        ;
+
+        
+    
+    
+            var marker_902413828c311c619384ccd5b184d943 = L.marker(
+                [-41.1, -68.5],
+                {}
+            ).addTo(map_c5cb9cac4359d170837a9fdfa61fdb6d);
+        
+    
+            var icon_8058c401665e34a2a8b23f5b425c14aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_902413828c311c619384ccd5b184d943.setIcon(icon_8058c401665e34a2a8b23f5b425c14aa);
+        
+    
+        var popup_cafe1e60958538509866bef60a480eaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e89b95b3345e1ab64b925c33bd9d5462 = $(`<div id="html_e89b95b3345e1ab64b925c33bd9d5462" style="width: 100.0%; height: 100.0%;">Comunidades mapuches y tehuelches - Patagonia</div>`)[0];
+            popup_cafe1e60958538509866bef60a480eaf.setContent(html_e89b95b3345e1ab64b925c33bd9d5462);
+        
+
+        marker_902413828c311c619384ccd5b184d943.bindPopup(popup_cafe1e60958538509866bef60a480eaf)
+        ;
+
+        
+    
+    
+            var marker_e9a93a5ce762c83c2c95a04cae7235fa = L.marker(
+                [-32.95, -60.65],
+                {}
+            ).addTo(map_c5cb9cac4359d170837a9fdfa61fdb6d);
+        
+    
+            var icon_204b4bb51d1f942e75ad9f657fc58a36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e9a93a5ce762c83c2c95a04cae7235fa.setIcon(icon_204b4bb51d1f942e75ad9f657fc58a36);
+        
+    
+        var popup_5c69e19083701b5ad8a49fb349947b49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d784b7d6efe83715a3b0a4e24cfc98a = $(`<div id="html_9d784b7d6efe83715a3b0a4e24cfc98a" style="width: 100.0%; height: 100.0%;">Ciudad fundada: Rosario</div>`)[0];
+            popup_5c69e19083701b5ad8a49fb349947b49.setContent(html_9d784b7d6efe83715a3b0a4e24cfc98a);
+        
+
+        marker_e9a93a5ce762c83c2c95a04cae7235fa.bindPopup(popup_5c69e19083701b5ad8a49fb349947b49)
+        ;
+
+        
+    
+    
+            var marker_bc1b173c39c5c46b88af6b4d31447d53 = L.marker(
+                [-31.4, -64.2],
+                {}
+            ).addTo(map_c5cb9cac4359d170837a9fdfa61fdb6d);
+        
+    
+            var icon_e848194dc465ee4f269e1483bfaf88aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bc1b173c39c5c46b88af6b4d31447d53.setIcon(icon_e848194dc465ee4f269e1483bfaf88aa);
+        
+    
+        var popup_514f92d7d52b72a8ec0a42f09d2122f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f40e197cead6b827355f1371f9e4c08a = $(`<div id="html_f40e197cead6b827355f1371f9e4c08a" style="width: 100.0%; height: 100.0%;">Ciudad fundada: Córdoba</div>`)[0];
+            popup_514f92d7d52b72a8ec0a42f09d2122f0.setContent(html_f40e197cead6b827355f1371f9e4c08a);
+        
+
+        marker_bc1b173c39c5c46b88af6b4d31447d53.bindPopup(popup_514f92d7d52b72a8ec0a42f09d2122f0)
+        ;
+
+        
+    
+</script>
+</html>
